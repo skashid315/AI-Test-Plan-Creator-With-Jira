@@ -1,0 +1,43 @@
+# ============================================
+# Backend .gitignore
+# ============================================
+
+# Dependencies
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist
+build
+*.tsbuildinfo
+
+# Database
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# Uploaded files
+templates/*
+!templates/.gitkeep
+uploads/
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
