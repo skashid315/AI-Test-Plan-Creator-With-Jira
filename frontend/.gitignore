@@ -1,0 +1,36 @@
+# ============================================
+# Frontend .gitignore
+# ============================================
+
+# Dependencies
+node_modules
+dist
+dist-ssr
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build output
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
